@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Fat Calculator</title>
+
+    <!--Script and CSS-->
+    <link rel="stylesheet" href="assets/main/main.css">
+    <script src="#"></script>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:title" content="Nolife Fitness Calculator">
+    <meta property="og:description" content="Nolife Fitness Calculator">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="#">
+    <meta property="twitter:title" content="Nolife Fitness Calculator">
+    <meta property="twitter:description" content="Nolife Fitness Calculator">
+</head>
+<body>
+    <div class="container">
+        <div class="container__column">
+            <form class="bodyfat">
+                <div class="bodyfat__headers">
+                    <span class="bodyfat__headers-title">Enter your information.</span>
+                    <span class="bodyfat__headers-text">You need to enter the necessary information to get information about the body fat calculation process, get the results and create a receipt.</span>
+                </div>
+                <div class="bodyfat__inputs">
+                    <div class="bodyfat__inputs--right">
+                        <input type="text" name="gender" id="gender" class="bodyfat__inputs--design"" placeholder="Gender">
+                        <input type="text" name="weight" class="bodyfat__inputs--design"" placeholder="Weight">
+                        <input type="text" name="neck" class="bodyfat__inputs--design" placeholder="Neck">
+                    </div>
+                    <div class="bodyfat__inputs--left">
+                        <input type="text" name="age" id="age" class="bodyfat__inputs--design" placeholder="Age"> 
+                        <input type="text" name="height" id="height" class="bodyfat__inputs--design" placeholder="Height">
+                        <input type="text" name="waist" id="waist" class="bodyfat__inputs--design" placeholder="Waist">
+                    </div>
+                </div>
+                <button type="submit" class="bodyfat__submit">Calculate</button>
+            </form>
+        </div>
+        <div class="container__column-left">
+            <div class="receipt">
+                <span class="receipt__title">Receipt</span>
+                <hr class="hr">
+                <span class="receipt__result--header">Body Fat</span>
+                <span class="receipt__result">60%</span>
+                <span class="receipt__result--header">Body Fat (BMI Method)</span>
+                <span class="receipt__result">62,1%</span>
+                <div class="receipt__buttons">
+                    <button type="submit" class="receiput__buttons-download">Download</button>
+                    <button type="submit" class="receipt__buttons-send">Send to Consultant</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
